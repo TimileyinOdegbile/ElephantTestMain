@@ -11,6 +11,10 @@ html {
     display: flex;
 }
 
+img{
+    width: 500px;
+}
+
 /* =======SIDE BAR====== */
 
 /* LOGO */
@@ -111,4 +115,15 @@ a:hover,
 
 .table tbody tr:last-of-type {
     border-bottom: 2px solid #009578;
+}
+
+
+.error-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
 }
