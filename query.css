@@ -1,0 +1,28 @@
+@media screen and (max-width: 640px) {
+    .side-bar {
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .elephantom-logo {
+        margin: 0;
+        height: 100px;
+        width: 100px;
+    }
+
+    .field-box {
+        overflow-x: scroll;
+    }
+
+    .screen {
+        display: block;
+    }
+
+    .work-field {
+        width: 100vw;
+    }
+}
